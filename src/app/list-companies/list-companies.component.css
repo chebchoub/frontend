@@ -1,0 +1,27 @@
+/* list-job-offers.component.css */
+
+div {
+    /* Style for each company div */
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    /* Style for company name */
+    color: #333;
+    font-size: 24px;
+}
+
+p {
+    /* Style for company description */
+    color: #666;
+    font-size: 16px;
+}
+
+img {
+    /* Style for company logo */
+    width: 100px;
+    height: 100px;
+}

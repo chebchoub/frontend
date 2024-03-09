@@ -8,6 +8,10 @@ import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { RegisterStep1Component } from './register-step1/register-step1.component';
 import { FormcompanyComponent } from './company/formcompany/formcompany.component';
+import { JobOfferComponent } from './job-offer/job-offer.component';
+import { ListJobOffersComponent } from './list-job-offers/list-job-offers.component';
+import { ListCompaniesComponent } from './list-companies/list-companies.component';
+import { TrainingOfferComponent } from './training-offer/training-offer.component';
 
 
 @NgModule({
@@ -16,6 +20,10 @@ import { FormcompanyComponent } from './company/formcompany/formcompany.componen
     HomeComponent,
     RegisterStep1Component,
     FormcompanyComponent,
+    JobOfferComponent,
+    ListJobOffersComponent,
+    ListCompaniesComponent,
+    TrainingOfferComponent,
    
   ],
   imports: [
