@@ -1,0 +1,31 @@
+<div class="demo-page">
+    <main style="margin-left: 150px;" class="demo-page-content">
+  
+      <form  #jobOfferForm="ngForm" id="job-offer-form" class="job-offer-form" autocomplete="off" role="main">
+        <section>
+          <div class="href-target" id="input-types"></div>
+          <h1>
+            Job Offer Information
+          </h1>
+          <div class="nice-form-group">
+            <label for="positionName">Position Name <span style="color: #dd6666;">*</span></label>
+            <input type="text" id="positionName" name="positionName" placeholder="Position name" />
+          </div>
+          <div class="nice-form-group">
+            <label for="jobDescription">Job Description <span style="color: #dd6666;">*</span></label>
+            <textarea rows="5" name="jobDescription" placeholder="Job description"></textarea>
+          </div>
+          <div class="nice-form-group">
+            <label for="contactInformation"> Contact <span style="color: #dd6666;">*</span></label>
+            <input type="text" rows="5" name="contactInformation"
+              placeholder="Your Contact Information Here exemple@gmail.com">
+          </div>
+          <details>
+            <summary>
+              <input class="submit" type="submit" value="Create" />
+            </summary>
+          </details>
+        </section>
+      </form>
+    </main>
+  </div>

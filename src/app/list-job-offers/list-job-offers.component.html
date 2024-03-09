@@ -1,0 +1,10 @@
+<!-- list-job-offers.component.html -->
+<div *ngFor="let jobOffer of jobOffers">
+    <h2>{{ jobOffer.title }}</h2>
+    <p>{{ jobOffer.description }}</p>
+    <div>
+      <h3>{{ jobOffer.company.name }}</h3>
+      <p>{{ jobOffer.company.description }}</p>
+      <img [src]="jobOffer.company.logoUrl" alt="{{ jobOffer.company.name }} logo">
+    </div>
+  </div>
